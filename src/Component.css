@@ -1,0 +1,119 @@
+/* Container for centering the card */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #6c63ff, #8e83ff);
+}
+
+/* Card styling */
+.card {
+  display: flex;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  margin: 5px;
+  overflow: hidden;
+}
+
+/* Left section of the card */
+.left-section {
+  background-color: #322e7d;
+  padding: 20px;
+  width: 200px;
+}
+
+/* Right section of the card */
+.right-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  padding: 20px;
+  width: 500px;
+}
+
+/* Header styles */
+h1,
+p {
+  font-size: 12px;
+  color: #848496; /* Grayish color */
+  font-family: "Poppins", sans-serif;
+}
+
+/* Title and description styles */
+.course-title {
+  font-size: 24px;
+  color: #fdfdfe;
+  margin-bottom: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+.course-description {
+  font-size: 30px;
+  color: #000000;
+  margin-bottom: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.view-link {
+  font-size: 12px;
+  text-decoration: none;
+  color: #848496;
+  opacity: 0.8;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Align chapter header and progress bar */
+.header-progress-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+/* Progress bar styles */
+.progress-container {
+  display: flex;
+  align-items: center;
+}
+
+.progress-bar {
+  width: 150px;
+  height: 5px;
+  background-color: #c7b9f4;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.progress-fill {
+  width: 66%; /* Adjust based on progress */
+  height: 100%;
+  background-color: #4f46e5;
+  border-radius: 5px;
+}
+
+.progress-text {
+  font-size: 12px;
+  color: #6b7280;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Button styles */
+.btn {
+  padding: 10px 20px;
+  background-color: #4f46e5;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  align-self: flex-end;
+  font-family: "Poppins", sans-serif;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover {
+  background-color: #4338ca;
+}
